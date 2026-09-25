@@ -13,7 +13,7 @@ type Circle = {
 
 type Shape = Rectangle | Square | Circle;
 
-function rectangleCircumference(r: Rectangle)
+function rectangleCircumference(r: Rectangle) {}
 
 let r1: Rectangle = { height: 1, width: 7 };
 let r2: Rectangle = { height: 2, width: 1 };

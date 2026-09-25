@@ -1,4 +1,4 @@
-let name: string = "Joe";
+let personName: string = "Joe";
 let age: number = 42;
 let married: boolean = false;
 
