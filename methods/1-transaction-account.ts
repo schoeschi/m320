@@ -1,5 +1,5 @@
 /**
- * This class defines an account able to perform transactions.
+ * Defines an account able to perform transactions.
  */
 class TransactionAccount {
     private balance: number = 0.0;

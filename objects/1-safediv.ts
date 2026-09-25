@@ -1,5 +1,5 @@
 /**
- * This function divides two numbers safely.
+ * Divides two numbers safely.
  * If the second number is 0 or the first number is not given, the function will return 0.
  * @param n
  * @param m
