@@ -5,7 +5,7 @@
  * @param currency The currency of the price
  * @returns The formatted price
  */
-function displayPretty(price: number, granularity: number, currency: string): string {
+export function displayPretty(price: number, granularity: number, currency: string): string {
     const rounded: number = Math.round(price / granularity) / (1.0 / granularity);
     return `${currency} ${rounded}`;
 }
@@ -15,7 +15,7 @@ function displayPretty(price: number, granularity: number, currency: string): st
  * @param seconds The duration to be formatted in seconds
  * @returns The given duration in the format HH:MM:SS
  */
-function formatTime(seconds: number): string {
+export function formatTime(seconds: number): string {
     let remainder: number = seconds;
     const hours: number = remainder / 3600; // Seconds in hours
     remainder %= 3600;

@@ -4,7 +4,7 @@
  * @param fromUnit The unit the initial temperature is in
  * @returns The temperature in the opposite unit
  */
-function convertTemperature(temperature: number, fromUnit: string) {
+export function convertTemperature(temperature: number, fromUnit: string) {
     let convertedTemperature;
     if (fromUnit === "F") {
         convertedTemperature = temperature * (9/5) + 32 + '°C'; // Formula from Fahrenheit to Celsius
@@ -13,7 +13,3 @@ function convertTemperature(temperature: number, fromUnit: string) {
     }
     return convertedTemperature;
 }
-
-const temp = prompt("Please enter a temperature: ");
-const unit = prompt("Please enter a unit (F or C): ");
-console.log(`${temp}°${unit} = ${convertTemperature(Number.parseInt(temp!), unit!)}`);

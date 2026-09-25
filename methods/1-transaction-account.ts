@@ -1,7 +1,7 @@
 /**
  * Defines an account able to perform transactions.
  */
-class TransactionAccount {
+export class TransactionAccount {
     private balance: number = 0.0;
     private readonly iban: string;
     private readonly holder: string;
